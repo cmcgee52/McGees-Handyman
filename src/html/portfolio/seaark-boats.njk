@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    {% include "./partials/headPortfolioDetail.html" %}
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+                       
+						<div class="inner">
+
+							<!-- Header -->
+                            {% include "./partials/header-socialLinks.html" %}
+
+                            <!-- Content -->
+                             <!-- Back button -->
+                                <a href="../portfolio.html" class="button" style="margin-top: 35px;"><i class="fas fa-chevron-left"></i> Back to portfolio</a>
+								<section>
+									<header class="main">
+										<h1>SeaArk Boats</h1>
+									</header>
+
+									<span class="image main"><img src="../images/portfolio/seaark/responsive-showcase-mockup.png" alt="" /></span>
+
+                                    <h2>About SeaArk Boats</h2>
+									<p>SeaArk Boats has been in business since 1992 and joined the Correct Craft team in early 2016. Our team is comprised of over 150 men and women who know the importance of a well-built product — working together to create boats that will last a lifetime and provide families with many happy memories. All of our team members are part of our family and all are treated as such. We love working together to enrich our story and yours. Read more on their <a href="https://www.seaarkboats.com/about/seaark" target="_blank">about page</a>.</p>
+
+                                    <hr class="major" />
+
+                                    <h2>About The Project</h2>
+                                        <!-- About us page of company here -->
+                                        <p><strong>Mission:</strong> Create a new CMS that is more user friendly for the admin user. Create a better user flow on frontend and a new nice design</p>
+                                        <p><strong>Technologies Used:</strong> FLEX360 CMS</p>
+                                        <p><strong>Links</strong>
+                                            <ul style="margin-left: 28px; margin-top: -20px;">
+                                                <li style="padding-bottom: 7px;"><a href="https://github.com/flex360/pilot" target="_blank">FLEX360 CMS</a></li>
+                                            </ul>
+                                        </p>
+
+                                    <!-- <h2>Assets I created using Photoshop</h2> -->
+                                    <!-- Image gallery here -->
+                                    <!-- ### start of the gallery definition ### -->
+                                    <!-- <div id="nanogallery2"
+                                        data-nanogallery2 = '{
+                                            "thumbnailWidth":   400px,
+                                            "thumbnailHeight":  "auto",
+                                            thumbnailGutterWidth: 100px
+                                            }' > -->
+                                            
+                                        <!-- gallery content -->
+                                        <!-- <a href = "../images/portfolio/hanks/splashScreen.png"   data-ngThumb = "../images/portfolio/hanks/splashScreen.png"> splashScreen.png</a>
+                                        <a href = "../images/portfolio/hanks/splashScreenAndroid.png"   data-ngThumb = "../images/portfolio/hanks/splashScreenAndroid.png" > splashScreenAndroid.png </a>
+                                        <a href = "../images/portfolio/hanks/splashScreenIOS.png"   data-ngThumb = "../images/portfolio/hanks/splashScreenIOS.png" > splashScreenIOS.png </a>
+                                        <a href = "../images/portfolio/hanks/splashScreenTablet.png"   data-ngThumb = "../images/portfolio/hanks/splashScreenTablet.png"> splashScreenTablet.png </a>
+                                        <a href = "../images/portfolio/hanks/splashScreenTabletLandscape.png"   data-ngThumb = "../images/portfolio/hanks/splashScreenTabletLandscape.png" > splashScreenTabletLandscape.png </a>
+                                    </div> -->
+
+                                    <!-- ### end of the gallery definition ### -->
+
+                                    <h2>Video Demo</h2>
+                                    <!-- Youtube video here -->
+
+                                    <h2>Summary</h2>
+                                    <!-- My testimonial here -->
+
+                                        <p>
+                                            My job on this project was to create the backend modules for the admin user
+                                            to be able to <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank">CRUD</a> 
+                                            (create, read, update, delete) any models used in the frontend of the application.
+                                        </p>
+
+                                        <p>This client used our standard Pages module and News module. I custom made 
+                                            a Tournaments module, which was for a database model called a "tournament".
+                                            The admin can set a beginning and ending <a href="https://www.php.net/manual/en/class.datetime.php" target="_blank">DateTime</a>
+                                            for each tournament they create. Then I created frontend routes:<br>
+                                            <ul>
+                                                <li>/tournaments/upcoming  -- list view of all upcoming tournaments</li>
+                                                <li>/tournaments/past -- list view of all past tournaments</li>
+                                                <li>/tournaments/{tournament}/{slug} -- detail view of an individual tournament displaying times, winners, photo galleries, etc.</li>
+                                            </ul>
+                                        </p>
+
+                                </section>
+						</div>
+					</div>
+
+				<!-- Sidebar & Footer -->
+                {% include "./partials/sidebar-footer.html" %}
+
+			</div>
+
+		<!-- Scripts -->
+        {% include "./partials/scripts.html" %}
+	</body>
+</html>
