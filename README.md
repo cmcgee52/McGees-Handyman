@@ -1,6 +1,6 @@
-# My Portfolio Website
+# McGees Hnadyman Portfolio Website
 
-Check out my portfolio of work at <a href="https://coltons-apps.tech/" target="_blank">coltons-apps.tech</a>
+Check out my portfolio of work at <a href="https://mcgees-handyman.com" target="_blank">mcgees-handyman.com</a>
 
 Notes to myself:
 Node version: 14.15.1
