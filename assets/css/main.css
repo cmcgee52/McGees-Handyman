@@ -2261,7 +2261,7 @@ button:disabled,
     text-indent: 7.25em;
     width: 7.25em; }
   #sidebar .toggle:before {
-    color: #b8b8b8;
+    color: #000;
     margin-left: -0.0625em;
     margin-top: -0.25em;
     font-size: 1.1rem;
